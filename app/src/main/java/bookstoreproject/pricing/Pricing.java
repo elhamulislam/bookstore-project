@@ -1,5 +1,9 @@
 package bookstoreproject.pricing;
 
-public interface Pricing {
-    
+public abstract class Pricing {
+    private double price;
+
+    public double getPrice() {
+        return(price);
+    }
 }

@@ -4,11 +4,11 @@
 package bookstoreproject;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
+    public String makeAnnouncement() {
+        return "Starting Project";
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        System.out.println(new App().makeAnnouncement());
     }
 }

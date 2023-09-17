@@ -4,9 +4,6 @@
 # Ignore Gradle build output directory
 build
 
-# Ignore .gitignore ... so students have to write their own
-.gitignore
-
 # Ignore files and directories in the app/bin folder
 # Ignore all .class files
 app/bin
