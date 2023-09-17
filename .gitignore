@@ -8,6 +8,9 @@ build
 # Ignore all .class files
 app/bin
 app/bin/*
+app/bin/main/java/bookstoreproject
+app/bin/main/java/bookstoreproject/*
 *.class
+
 
 
