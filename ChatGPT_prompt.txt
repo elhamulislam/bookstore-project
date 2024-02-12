@@ -1,0 +1,26 @@
+I will be paste a Java program that includes 5 files, App.java,
+Inventory.java, Pricing.java, Sales.java and SalesCounter.java. 
+
+Do not comment on the code in the files.  Wait for further instructions.
+
+After I paste the java files, I will then paste a transcript of a Zoom session that contains an explanation of what the program is doing.
+
+Do not comment on the explanation until I tell you to begin.
+
+The following are the instructions you will use to study the java files and critique the explanaion:  
+
+Critique the explanation using the following guidelines: 
+
+1) Each file must be discussed starting with App.java.  The proper order of explanation is left for you to decide.
+2) The explanation must discuss the purpose and use of private fields or methods, static fields, static methods and imports. 
+
+3) The explanation must discuss what are the advantages and disadvantages of placing Inventory.java, Pricing.java in separate directories and Sales.java and SalesCounter.java together in a separate directory. 
+
+4) The explanation should have two recommendations for improving the code
+
+5) Your critique will be dividied into what was good, what could be improved and what was missing in the explanation.
+
+6) After you critique the explanation, critique it a second time as if the
+person is explaining code to an interviewer from Apple who is recruiting for an entry level Java programming position.
+
+Do not begin until after I paste the code and the transcript of the explanation.
