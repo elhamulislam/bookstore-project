@@ -5,6 +5,10 @@ package bookstoreproject;
 
 import bookstoreproject.inventory.*;
 import bookstoreproject.pricing.*;
+import bookstoreproject.pricing.PricingSub.BookPricing;
+import bookstoreproject.pricing.PricingSub.PenPricing;
+import bookstoreproject.pricing.PricingSub.PencilPricing;
+import bookstoreproject.pricing.PricingSub.StationaryPricing;
 import bookstoreproject.sales.*;
 
 public class App {
@@ -16,7 +20,12 @@ public class App {
         System.out.println(new App().makeAnnouncement());
         // Initialize the Inventory, Pricing, and Sales classes
         Inventory inventory = new Inventory();
-        Pricing pricing = new Pricing();
+
+        Pricing bookPricing = new BookPricing();
+        Pricing stationaryPricing = new StationaryPricing();
+        Pricing penPricing = new PenPricing();
+        Pricing pencilPricing = new PencilPricing();
+        
         Sales sales = new Sales(inventory, pricing);
 
           // Header
