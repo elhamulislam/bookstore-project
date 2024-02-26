@@ -5,6 +5,10 @@ package bookstoreproject;
 
 import bookstoreproject.inventory.*;
 import bookstoreproject.pricing.*;
+import bookstoreproject.pricing.PricingSub.BookPricing;
+import bookstoreproject.pricing.PricingSub.PenPricing;
+import bookstoreproject.pricing.PricingSub.PencilPricing;
+import bookstoreproject.pricing.PricingSub.StationaryPricing;
 import bookstoreproject.sales.*;
 
 public class App {
@@ -16,17 +20,22 @@ public class App {
         System.out.println(new App().makeAnnouncement());
         // Initialize the Inventory, Pricing, and Sales classes
         Inventory inventory = new Inventory();
-        Pricing pricing = new Pricing();
-        Sales sales = new Sales(inventory, pricing);
+
+        Pricing bookPricing = new BookPricing();
+        Pricing stationaryPricing = new StationaryPricing();
+        Pricing penPricing = new PenPricing();
+        Pricing pencilPricing = new PencilPricing();
+        
+        Sales sales = new Sales(inventory, bookPricing, stationaryPricing, penPricing, pencilPricing);
 
           // Header
           System.out.printf("%-15s %-15s %-15s%n", "Product", "Availability", "Price");
 
           // Display initial inventory and pricing for demonstration
-          System.out.printf("%-15s %-15s %-15.2f%n", "Books", inventory.isAvailable("Book", 1), pricing.getPrice("Book"));
-          System.out.printf("%-15s %-15s %-15.2f%n", "Stationary", inventory.isAvailable("Stationary", 1), pricing.getPrice("Stationary"));
-          System.out.printf("%-15s %-15s %-15.2f%n", "Pencils", inventory.isAvailable("Pencil", 1), pricing.getPrice("Pencil"));
-          System.out.printf("%-15s %-15s %-15.2f%n", "Pens", inventory.isAvailable("Pen", 1), pricing.getPrice("Pen"));
+          System.out.printf("%-15s %-15s %-15.2f%n", "Books", inventory.isAvailable("Book", 1), bookPricing.getPrice());
+          System.out.printf("%-15s %-15s %-15.2f%n", "Stationary", inventory.isAvailable("Stationary", 1), stationaryPricing.getPrice());
+          System.out.printf("%-15s %-15s %-15.2f%n", "Pencils", inventory.isAvailable("Pencil", 1), pencilPricing.getPrice());
+          System.out.printf("%-15s %-15s %-15.2f%n", "Pens", inventory.isAvailable("Pen", 1), penPricing.getPrice());
   
           // Perform some sales transactions and show results
           System.out.println("\nSales Transactions:");

@@ -6,15 +6,39 @@ import bookstoreproject.pricing.*;
 public class Sales {
 
     private Inventory inventory;
-    private Pricing pricing;
+    private Pricing bookPricing;
+    private Pricing stationaryPricing;
+    private Pricing penPricing;
+    private Pricing pencilPricing;
 
-    public Sales(Inventory inventory, Pricing pricing) {
+    public Sales(Inventory inventory, Pricing bookPricing, Pricing stationaryPricing, Pricing penPricing, Pricing pencilPricing) {
         this.inventory = inventory;
-        this.pricing = pricing;
+        this.bookPricing = bookPricing;
+        this.stationaryPricing = stationaryPricing;
+        this.penPricing = penPricing;
+        this.pencilPricing = pencilPricing;
     }
 
     public boolean makeSale(String productType, int quantity) {
-        double price = pricing.getPrice(productType);
+        double price;
+
+        switch(productType){
+            case "Book":
+                price = bookPricing.getPrice();
+                break;
+            case "Stationary":
+                price = stationaryPricing.getPrice();
+                break;
+            case "Pen":
+                price = penPricing.getPrice();
+                break;
+            case "Pencil":
+                price = pencilPricing.getPrice();
+                break;
+            default:
+                return false;
+        }
+
         boolean isAvailable = inventory.isAvailable(productType, quantity);
 
         if (isAvailable) {

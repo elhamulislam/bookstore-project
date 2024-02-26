@@ -1,0 +1,326 @@
+WEBVTT
+
+1
+00:00:28.110 --> 00:00:34.699
+Elham Islam: Hello! This is a hump! What's up? And this is for the extra credit
+
+2
+00:00:35.550 --> 00:00:36.550
+Elham Islam: assignment.
+
+3
+00:00:38.590 --> 00:00:39.730
+Elham Islam: So.
+
+4
+00:00:39.770 --> 00:00:43.960
+Elham Islam: to begin with, we'll start with our app dot Java file.
+
+5
+00:00:45.090 --> 00:00:52.850
+Elham Islam: Here we import. To begin with, we import our inventory pricing, and a few subclasses
+
+6
+00:00:53.350 --> 00:00:54.150
+Elham Islam: or
+
+7
+00:00:55.190 --> 00:00:59.920
+Elham Islam: book pricing pen, pricing pencil, pricing and stationery, pricing
+
+8
+00:01:01.300 --> 00:01:08.590
+Elham Islam:  The app class is the same, has not been
+
+9
+00:01:09.310 --> 00:01:19.060
+Elham Islam:  in the public main polystatic main main function. We have
+
+10
+00:01:19.880 --> 00:01:25.099
+Elham Islam: our inventory. That's an instance which is still the same, and
+
+11
+00:01:25.840 --> 00:01:28.289
+Elham Islam: here we have our
+
+12
+00:01:29.190 --> 00:01:32.680
+Elham Islam: 4 different pricing instances.
+
+13
+00:01:32.820 --> 00:01:40.609
+Elham Islam: where we define book pricing, stationery, pricing, pen, pricing, and pencil, pricing as new book pricing.
+
+14
+00:01:41.860 --> 00:01:45.459
+Elham Islam: stationary pricing and pencil pencil, pricing
+
+15
+00:01:45.640 --> 00:01:49.170
+Elham Islam: as they are all different subclasses.
+
+16
+00:01:51.060 --> 00:01:55.590
+Elham Islam: We then have changed our sales instance here.
+
+17
+00:01:55.830 --> 00:02:01.950
+Elham Islam: and we call our sales constructor, but this time we pass inventory
+
+18
+00:02:02.230 --> 00:02:07.299
+Elham Islam: book pricing, stationery, pricing, and pricing pencil, pricing all as arguments.
+
+19
+00:02:09.660 --> 00:02:16.490
+Elham Islam:  the rent statements are the same, except here
+
+20
+00:02:16.910 --> 00:02:22.520
+Elham Islam: we have our book pricing dot get price that has been changed
+
+21
+00:02:22.740 --> 00:02:24.669
+Elham Islam: from before as
+
+22
+00:02:26.750 --> 00:02:34.809
+Elham Islam: this time. We're directly getting it from the book, pricing. subclass. and the same for
+
+23
+00:02:34.850 --> 00:02:39.150
+Elham Islam: stationary, pricing pencil, pricing and and pricing
+
+24
+00:02:46.330 --> 00:02:50.500
+make sales. or the same ex
+
+25
+00:02:51.400 --> 00:02:52.230
+Elham Islam: I mean.
+
+26
+00:02:53.700 --> 00:02:55.869
+Elham Islam: make sales are the same
+
+27
+00:02:58.250 --> 00:03:01.709
+Elham Islam: passive object, still the same. Okay.
+
+28
+00:03:01.830 --> 00:03:08.240
+Elham Islam: let's now look at our pricing dot Java
+
+29
+00:03:08.490 --> 00:03:13.150
+Elham Islam: as our inventory dot Java class is still the same.
+
+30
+00:03:13.880 --> 00:03:15.969
+We'll look at our pricing Java.
+
+31
+00:03:16.890 --> 00:03:21.530
+Elham Islam: as you can see. It's way less than what it was.
+
+32
+00:03:23.700 --> 00:03:28.110
+Elham Islam: We have our public abstract class pricing.
+
+33
+00:03:28.860 --> 00:03:32.800
+Elham Islam: We declare our private double price variable
+
+34
+00:03:33.940 --> 00:03:40.620
+Elham Islam: as a part of our class, and our instructor method here public pricing
+
+35
+00:03:41.040 --> 00:03:44.570
+Elham Islam: double and has argument double price
+
+36
+00:03:44.670 --> 00:03:51.139
+Elham Islam: which sets the price for the class as the price we take from the argument.
+
+37
+00:03:52.830 --> 00:03:56.810
+Elham Islam: We also have the get price method. which returns
+
+38
+00:03:57.380 --> 00:04:00.479
+Elham Islam: our price that we have set
+
+39
+00:04:01.190 --> 00:04:04.840
+Elham Islam: to this specific class in
+
+40
+00:04:04.950 --> 00:04:06.930
+Elham Islam: the constructor.
+
+41
+00:04:08.440 --> 00:04:10.909
+Elham Islam: So then, let's look at our
+
+42
+00:04:11.270 --> 00:04:20.180
+Elham Islam: sub classes start with book pricing dot Java. They're all very similar. So here we import our
+
+43
+00:04:20.350 --> 00:04:21.679
+Elham Islam: pricing class
+
+44
+00:04:23.370 --> 00:04:30.920
+Elham Islam: and our public class book pricing extends from our pricing class. So it has all the
+
+45
+00:04:31.190 --> 00:04:38.930
+Elham Islam: all the things we have in a pricing. We have the same in both pricing, except here we have
+
+46
+00:04:39.550 --> 00:04:46.120
+Elham Islam: public or constructor or book pricing constructor, which calls the super method
+
+47
+00:04:47.650 --> 00:04:50.149
+Elham Islam: which uses our
+
+48
+00:04:50.270 --> 00:04:55.690
+Elham Islam: which basically calls our parent constructor here.
+
+49
+00:04:57.210 --> 00:05:01.780
+Elham Islam: So it passes 10.0 as the price
+
+50
+00:05:02.620 --> 00:05:07.830
+Elham Islam: as an argument, and that goes into our pricing dot Java here
+
+51
+00:05:08.270 --> 00:05:13.519
+Elham Islam: as our argument, and then our prices set as the 10 point. Oh.
+
+52
+00:05:14.980 --> 00:05:20.719
+Elham Islam: the same applies for pencil, pricing, pen, pricing, and stationary pricing.
+
+53
+00:05:22.490 --> 00:05:26.340
+Elham Islam: Let's now look at our sales, Java, and see what's changed.
+
+54
+00:05:29.260 --> 00:05:33.720
+Elham Islam: This time we, similar to our main function
+
+55
+00:05:34.490 --> 00:05:36.240
+Elham Islam: or app dot Java.
+
+56
+00:05:36.540 --> 00:05:44.500
+Elham Islam: We initialize all our different pricing here, book pricing, stationery, pricing, pen, pricing, and pencil pricing.
+
+57
+00:05:45.300 --> 00:05:46.410
+Elham Islam: We then
+
+58
+00:05:47.140 --> 00:05:52.149
+Elham Islam: and it. We then initialize our method define our method.
+
+59
+00:05:53.340 --> 00:06:00.009
+Elham Islam: inventory. pricing, book, pricing, station, pricing, pen, pricing, and pencil pricing.
+
+60
+00:06:00.410 --> 00:06:05.670
+Elham Islam: We then set all our all of our variables here.
+
+61
+00:06:05.740 --> 00:06:08.750
+Elham Islam: 2. All the arguments that we get.
+
+62
+00:06:11.200 --> 00:06:12.520
+Elham Islam: and then
+
+63
+00:06:13.090 --> 00:06:16.239
+Elham Islam: we have our make sale.
+
+64
+00:06:17.830 --> 00:06:28.319
+Elham Islam: which is similar, except this time we have used book pricing dot get price. which returns the price of our book
+
+65
+00:06:30.790 --> 00:06:44.149
+Elham Islam: as we saw in our pricing dot. Java get price here. Calls that function calls that method same for stationery, pen and pencil returns false if it doesn't exist.
+
+66
+00:06:45.440 --> 00:06:46.630
+Elham Islam: And
+
+67
+00:06:48.470 --> 00:06:50.879
+Elham Islam: this card is the same.
+
+68
+00:06:53.580 --> 00:06:57.190
+Elham Islam: Let's now look at our sales. Calendar, Java.
+
+69
+00:06:59.350 --> 00:07:01.929
+Elham Islam: It's also the same.
+
+70
+00:07:03.810 --> 00:07:04.770
+Elham Islam: Okay.
+
+71
+00:07:05.290 --> 00:07:08.359
+Elham Islam:  that should be
+
+72
+00:07:08.900 --> 00:07:12.149
+Elham Islam: everything that I changed for
+
+73
+00:07:13.470 --> 00:07:18.140
+Elham Islam: the extra pet is. Let's let's run it and see what happens.
+
+74
+00:07:35.170 --> 00:07:37.280
+Elham Islam: Yep, so as we can see.
+
+75
+00:07:40.170 --> 00:07:45.149
+Elham Islam: starts the project available prices
+
+76
+00:07:46.140 --> 00:07:47.419
+Elham Islam: as we know it.
+
+77
+00:07:48.910 --> 00:07:55.100
+Elham Islam: sales transaction. True? True, everything's looks good.
+
+78
+00:07:56.050 --> 00:07:57.040
+So
+
+79
+00:07:57.420 --> 00:08:00.550
+Elham Islam: yeah, the subclass lives work.
+
+80
+00:08:03.510 --> 00:08:04.260
+Elham Islam: Yeah.
+
+81
+00:08:05.350 --> 00:08:06.169
+Elham Islam: thank you.
+

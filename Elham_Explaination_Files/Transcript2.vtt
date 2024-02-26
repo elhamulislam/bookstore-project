@@ -1,0 +1,538 @@
+WEBVTT
+
+1
+00:00:03.940 --> 00:00:09.050
+Hello! I'm Elong, and we'll be. I'll be explaining the Bookstore project here.
+
+2
+00:00:10.190 --> 00:00:12.290
+Elham Islam: to begin with, in our
+
+3
+00:00:12.300 --> 00:00:13.910
+the Java file.
+
+4
+00:00:14.290 --> 00:00:15.380
+Elham Islam: We
+
+5
+00:00:15.710 --> 00:00:21.089
+Elham Islam: first import all our packages, such as inventory, pricing and sales.
+
+6
+00:00:21.840 --> 00:00:25.239
+Elham Islam:  When enter classes
+
+7
+00:00:26.680 --> 00:00:30.160
+Elham Islam: in our app class, we first have a method.
+
+8
+00:00:30.320 --> 00:00:34.880
+Elham Islam:  that returns a string starting project
+
+9
+00:00:36.550 --> 00:00:41.179
+Elham Islam: which we use in our main function to output
+
+10
+00:00:41.320 --> 00:00:45.710
+Elham Islam: before our maincode is output it.
+
+11
+00:00:47.900 --> 00:00:52.979
+Elham Islam: First, we initialize all our instances, such as inventory pricing and sales.
+
+12
+00:00:55.580 --> 00:01:00.909
+Elham Islam: If for our sales we have 2 arguments, such as inventory and pricing.
+
+13
+00:01:01.460 --> 00:01:08.070
+Elham Islam: which is required for its constructor and for the sales for the and to
+
+14
+00:01:08.090 --> 00:01:10.499
+Elham Islam: process all our transactions
+
+15
+00:01:12.690 --> 00:01:18.220
+Elham Islam: in our header. Output statement, we have percentage
+
+16
+00:01:18.860 --> 00:01:20.860
+Elham Islam: dash 15 s.
+
+17
+00:01:21.010 --> 00:01:24.269
+Elham Islam: 3 times. The S here stands for a string.
+
+18
+00:01:24.710 --> 00:01:26.440
+Elham Islam: and the 15
+
+19
+00:01:27.810 --> 00:01:29.110
+Elham Islam: 15
+
+20
+00:01:29.930 --> 00:01:34.329
+Elham Islam: is the amount of spaces after our string is on the screen.
+
+21
+00:01:36.160 --> 00:01:46.780
+Elham Islam: and the arguments, product, availability and price are all strings that go into the little S's respectively, and our percentage. N stands for new line.
+
+22
+00:01:48.710 --> 00:01:55.870
+Elham Islam: Similarly, we display all our inventory and pricing. For for example, for books.
+
+23
+00:01:56.900 --> 00:01:58.150
+Elham Islam: we have
+
+24
+00:01:59.250 --> 00:02:04.299
+Elham Islam:  where our strings are books and inventory dot
+
+25
+00:02:04.320 --> 00:02:19.890
+Elham Islam: is available. That's a call to our is available. Funk is available method in inventory, and our inventory class. which returns to true or false. If the book, and if if the product and its quantity is available.
+
+26
+00:02:21.340 --> 00:02:25.350
+Elham Islam: it takes 2 arguments, string and quantity.
+
+27
+00:02:25.780 --> 00:02:29.559
+Elham Islam: This the string and integer product, type and quantity.
+
+28
+00:02:31.460 --> 00:02:45.440
+Elham Islam:  pricing and get price pricing dot get price, which which returns our price for this specific product. And we pass that product
+
+29
+00:02:45.800 --> 00:02:49.099
+Elham Islam: into our get price method as an argument.
+
+30
+00:02:51.950 --> 00:02:54.979
+Elham Islam: and all of those, all the 3 strings
+
+31
+00:02:55.220 --> 00:02:58.999
+Elham Islam: and all the 2 strings and the double
+
+32
+00:02:59.120 --> 00:03:02.870
+Elham Islam: outputs. according to this format
+
+33
+00:03:02.920 --> 00:03:09.330
+Elham Islam: and the point 2. Here is for 2 decimal places. The double will output as
+
+34
+00:03:10.120 --> 00:03:14.370
+Elham Islam: we then have our sales transactions. our Boolean.
+
+35
+00:03:14.450 --> 00:03:18.520
+Elham Islam: We have a Boolean function. I'm sorry. A Boolean
+
+36
+00:03:18.970 --> 00:03:27.700
+Elham Islam: variable booksell which is set to sales. Dot makesale, and we call make sale here. which has
+
+37
+00:03:27.920 --> 00:03:38.140
+Elham Islam: arguments, product, type, arguments, string and integer product, type and its quantity. which returns true or false. If the sale has been made.
+
+38
+00:03:39.280 --> 00:03:41.960
+Elham Islam: the same goes for
+
+39
+00:03:42.340 --> 00:03:44.880
+Elham Islam: pencil sale and stationary sale.
+
+40
+00:03:47.710 --> 00:03:48.820
+Elham Islam: we then
+
+41
+00:03:52.980 --> 00:03:59.229
+Elham Islam: sit. We then have our output for
+
+42
+00:03:59.630 --> 00:04:13.080
+Elham Islam: to display our class, so class of sales object and then outputs our string sales, and then we call, get class function, which returns the runtime name of our sales class.
+
+43
+00:04:13.560 --> 00:04:18.949
+Elham Islam: But then we also call the get simple name
+
+44
+00:04:20.230 --> 00:04:23.520
+Elham Islam: method, which is a part of the class
+
+45
+00:04:23.730 --> 00:04:24.670
+Elham Islam: class
+
+46
+00:04:25.050 --> 00:04:28.200
+Elham Islam:  and that
+
+47
+00:04:28.370 --> 00:04:34.230
+Elham Islam: gives us a simpler name as get class method would give us
+
+48
+00:04:34.680 --> 00:04:42.149
+Elham Islam: book store project, thought sales dot sales, whereas Getsimple name will just give us the class name, which is sales.
+
+49
+00:04:43.890 --> 00:04:46.449
+Elham Islam: And then we have our exiting the program
+
+50
+00:04:47.490 --> 00:04:51.880
+Elham Islam: output. Let's move into our inventory
+
+51
+00:04:54.340 --> 00:04:57.619
+Elham Islam: in inventory. We have all our
+
+52
+00:04:58.400 --> 00:05:06.899
+Elham Islam: variables initialized as private integers. Book, stock, stationery, stock, pencil, stock and pen stock.
+
+53
+00:05:07.490 --> 00:05:11.789
+Elham Islam: They're all private as we're using them. Only in this class.
+
+54
+00:05:14.790 --> 00:05:16.600
+Elham Islam: Then we have our method.
+
+55
+00:05:16.800 --> 00:05:28.770
+Elham Islam: Boolean is available. Which returns a true or false value and has arguments, string, product, type and integer quantity.
+
+56
+00:05:29.330 --> 00:05:34.380
+Elham Islam: This use, this method uses a switch case where
+
+57
+00:05:36.700 --> 00:05:38.579
+Elham Islam: it checks the product type.
+
+58
+00:05:38.630 --> 00:05:45.080
+Elham Islam: and if it's if it matches with either book, stationary pencil, or pen, it checks. If the stock
+
+59
+00:05:45.720 --> 00:05:48.320
+Elham Islam: that we have here is greater
+
+60
+00:05:48.450 --> 00:05:52.379
+Elham Islam: then, or equals to the quantity required.
+
+61
+00:05:53.830 --> 00:05:57.830
+Elham Islam: If it is, it will return true. otherwise
+
+62
+00:05:58.040 --> 00:06:01.180
+Elham Islam:  it will return false.
+
+63
+00:06:02.230 --> 00:06:14.500
+Elham Islam: Then we have our decrement stock method. which also has this string product, type and integer quantity. As arguments. This also uses a switch case
+
+64
+00:06:15.300 --> 00:06:23.769
+Elham Islam: and it decreases the quantity decreases the stock according to the quantity it's it's been given.
+
+65
+00:06:24.980 --> 00:06:26.639
+Elham Islam: Let's now move it into pricing.
+
+66
+00:06:27.790 --> 00:06:30.220
+Elham Islam: In pricing. We have
+
+67
+00:06:30.320 --> 00:06:33.389
+Elham Islam: all our variables initialized here
+
+68
+00:06:33.640 --> 00:06:35.919
+Elham Islam: as private in double
+
+69
+00:06:36.580 --> 00:06:40.160
+Elham Islam:  We have our book price.
+
+70
+00:06:40.570 --> 00:06:43.650
+Elham Islam: stationary price, pencil price and pent price.
+
+71
+00:06:45.050 --> 00:06:49.469
+Elham Islam: We also have our method. Double get price.
+
+72
+00:06:49.860 --> 00:06:58.059
+Elham Islam: which returns the price of the product and the product is given to this method as an argument.
+
+73
+00:06:59.070 --> 00:07:01.569
+Elham Islam: and the method uses a switch case
+
+74
+00:07:02.760 --> 00:07:03.910
+Elham Islam: and
+
+75
+00:07:03.920 --> 00:07:11.519
+Elham Islam: it checks which product it. which product has been passed through as an argument and returns its price
+
+76
+00:07:12.070 --> 00:07:21.249
+Elham Islam: as it's been and initialized in our function in our method. Now let's see our sales dot Java
+
+77
+00:07:22.510 --> 00:07:29.270
+Elham Islam: in our sales. Java, we first import our packages, booked inventory, and pricing classes.
+
+78
+00:07:30.820 --> 00:07:42.320
+Elham Islam: then we also initialize are instances, inventory and pricing as they are required to do our sales transactions. So
+
+79
+00:07:43.240 --> 00:07:46.600
+Elham Islam: in our constructor. we first
+
+80
+00:07:47.570 --> 00:07:52.050
+Elham Islam: set our class in, and our initialized
+
+81
+00:07:52.300 --> 00:07:56.270
+Elham Islam: instances of inventory pricing that we made in our sales class
+
+82
+00:07:56.530 --> 00:08:02.810
+Elham Islam: and set it to the inventory and pricing we got as an argument from our main function.
+
+83
+00:08:03.790 --> 00:08:07.460
+Elham Islam: then, in our Boolean make sale
+
+84
+00:08:08.570 --> 00:08:15.379
+Elham Islam: method. It has 2 arguments. product, type and quantity.
+
+85
+00:08:16.110 --> 00:08:18.940
+Elham Islam: and firstly, it sets the price
+
+86
+00:08:19.270 --> 00:08:20.210
+Elham Islam: as
+
+87
+00:08:21.660 --> 00:08:29.480
+Elham Islam:  It sets the price to pricing getprice and calls the getpice function here.
+
+88
+00:08:31.270 --> 00:08:35.989
+Elham Islam: which also passes. Product type has its argument.
+
+89
+00:08:37.140 --> 00:08:48.330
+Elham Islam: We then have Boolean is available. We then initialize the mean. It is available to inventory.is available and call the is available function
+
+90
+00:08:49.570 --> 00:08:54.120
+Elham Islam: which returns true or false. If that product is available.
+
+91
+00:08:54.360 --> 00:09:00.660
+Elham Islam: we then have a conditional statement. If is available. True. then inventory.
+
+92
+00:09:01.810 --> 00:09:02.950
+Elham Islam: and then
+
+93
+00:09:02.960 --> 00:09:06.099
+Elham Islam: we call the decrement stock method.
+
+94
+00:09:06.120 --> 00:09:10.320
+Elham Islam: which will decrease the stock according to the quantity and its product.
+
+95
+00:09:12.090 --> 00:09:17.450
+Elham Islam: We then have our sales counter, dot update total sales
+
+96
+00:09:17.960 --> 00:09:18.930
+Elham Islam: method
+
+97
+00:09:19.040 --> 00:09:23.670
+Elham Islam: which has price times quantity as its argument
+
+98
+00:09:25.550 --> 00:09:28.270
+and sales dot counter update total units
+
+99
+00:09:28.540 --> 00:09:31.599
+Elham Islam: which has quantity as its argument.
+
+100
+00:09:32.130 --> 00:09:35.270
+Elham Islam: These 2 updates are sales.
+
+101
+00:09:36.080 --> 00:09:36.840
+Elham Islam: Connor.
+
+102
+00:09:37.190 --> 00:09:42.850
+Elham Islam: updates to total sales made in terms of pricing and our total units
+
+103
+00:09:43.060 --> 00:09:45.650
+Elham Islam: sold in terms of inventory.
+
+104
+00:09:46.870 --> 00:09:47.760
+Elham Islam: So
+
+105
+00:09:48.400 --> 00:09:51.910
+Elham Islam: let's move to our sales counter Java.
+
+106
+00:09:52.480 --> 00:09:57.880
+Elham Islam: Here we can further understand what this sales counter class does.
+
+107
+00:09:59.490 --> 00:10:05.410
+Elham Islam: We first initialize our total sales and total items as static.
+
+108
+00:10:05.460 --> 00:10:10.239
+Elham Islam: double and static in. This is because we're using static because
+
+109
+00:10:10.800 --> 00:10:23.460
+Elham Islam: we will be needing to update these 2 values. whether it be book. stationary, pen or pencil, it doesn't matter. But and we'll have to update this
+
+110
+00:10:23.510 --> 00:10:28.500
+Elham Islam: for all of them, and not just book or not just stationery.
+
+111
+00:10:31.590 --> 00:10:35.859
+Elham Islam: Similarly, we have public static void update, total sales
+
+112
+00:10:36.490 --> 00:10:38.809
+Elham Islam: which has the argument value.
+
+113
+00:10:40.530 --> 00:10:47.259
+Elham Islam: It updates our total sales and adds the argument value into total sales
+
+114
+00:10:47.630 --> 00:10:49.130
+Elham Islam: is also static.
+
+115
+00:10:53.890 --> 00:10:55.790
+Elham Islam: as it can be called.
+
+116
+00:10:56.810 --> 00:10:59.869
+Elham Islam: without creating an object
+
+117
+00:11:00.690 --> 00:11:04.049
+Elham Islam: similarly, public static, void of the toll units.
+
+118
+00:11:05.430 --> 00:11:13.879
+Elham Islam: Also, as an argument value and total items is incremented according to the value sold.
+
+119
+00:11:17.720 --> 00:11:19.459
+Elham Islam: Let's look at this
+
+120
+00:11:19.550 --> 00:11:21.120
+Elham Islam: line of code here
+
+121
+00:11:28.640 --> 00:11:30.199
+Elham Islam: system dot out.
+
+122
+00:11:47.650 --> 00:11:49.380
+Elham Islam: This line
+
+123
+00:11:52.300 --> 00:11:54.359
+Elham Islam: outputs are total sales.
+
+124
+00:11:54.420 --> 00:11:58.540
+Elham Islam: and it call calls or sales counter dot total sales.
+
+125
+00:12:00.360 --> 00:12:14.339
+Elham Islam: and notice how we did not create an instance for sales counter. like we did for inventory pricing and sales. That's where the static comes in. We can. We can just call total sales and output it like that
+
+126
+00:12:14.510 --> 00:12:15.410
+Elham Islam: as it
+
+127
+00:12:15.550 --> 00:12:19.220
+Elham Islam: as it follows all throughout our main function.
+
+128
+00:12:21.290 --> 00:12:22.329
+Elham Islam: And yeah.
+
+129
+00:12:22.570 --> 00:12:29.899
+Elham Islam: also notice how we separated our classes to different folders.
+
+130
+00:12:30.160 --> 00:12:36.190
+Elham Islam: Here we have inventory pricing and sales as different folders. This helps
+
+131
+00:12:36.540 --> 00:12:39.619
+Elham Islam: with our code organization.
+
+132
+00:12:39.670 --> 00:12:43.180
+Elham Islam: which is an advantage and encapsulation.
+
+133
+00:12:44.870 --> 00:12:45.540
+Yeah.
+
+134
+00:12:46.210 --> 00:12:47.790
+Elham Islam: that's it. Thank you.
+
