@@ -1,0 +1,350 @@
+WEBVTT
+
+1
+00:00:03.710 --> 00:00:13.499
+Andrew Sikes: I'll begin by explaining the Apt. Java function, which uses the sales sales counter pricing and inventory classes
+
+2
+00:00:13.510 --> 00:00:15.570
+Andrew Sikes: to run its main function
+
+3
+00:00:17.380 --> 00:00:22.890
+Andrew Sikes: of on Line 10. We have a constructor for the app class.
+
+4
+00:00:23.640 --> 00:00:28.510
+Andrew Sikes: and this is purely creating the starting project string for our output.
+
+5
+00:00:29.280 --> 00:00:33.040
+Andrew Sikes: which is called in the first line of main
+
+6
+00:00:33.280 --> 00:00:37.229
+Andrew Sikes: on Line 16, where we call make announcement
+
+7
+00:00:37.350 --> 00:00:40.469
+Andrew Sikes: to announce to the user that we're starting project
+
+8
+00:00:42.330 --> 00:00:51.060
+Andrew Sikes: on lines 18 and 19, we see the inventory and pricing classes getting scantiated. which is certainly necessary to
+
+9
+00:00:51.090 --> 00:00:55.259
+Andrew Sikes: to create those variables that will need to drive the main class
+
+10
+00:00:56.550 --> 00:01:05.830
+Andrew Sikes: as well as to initialize the sales class, we need these inventory and pricing classes as as parameters.
+
+11
+00:01:08.220 --> 00:01:14.039
+Andrew Sikes: We start our formatted outputs on lines 23 through 29.
+
+12
+00:01:15.320 --> 00:01:21.819
+Andrew Sikes: These are formatted just to create 3 columns, one for product, one for availability, one for price.
+
+13
+00:01:21.930 --> 00:01:24.800
+Andrew Sikes: These create 15 spaces between
+
+14
+00:01:25.790 --> 00:01:31.910
+Andrew Sikes: the start of each string on each line, and they'll end with a new line to hold our format.
+
+15
+00:01:33.790 --> 00:01:37.669
+Andrew Sikes: Lines 32. And on we
+
+16
+00:01:38.080 --> 00:01:43.160
+Andrew Sikes: are creating sales transactions and showing the outputs to the user.
+
+17
+00:01:44.920 --> 00:01:52.970
+Andrew Sikes: We have the the Boolean book sale, which calls the main make sale function, which will be another Boolean function.
+
+18
+00:01:53.120 --> 00:01:57.739
+Andrew Sikes: Therefore, as long as that's true. We will print the
+
+19
+00:01:59.870 --> 00:02:09.570
+Andrew Sikes: the results essentially of that mixale being completed, and we have one for book sale, one for pencil sale and one for the stationary items.
+
+20
+00:02:11.570 --> 00:02:15.180
+Andrew Sikes: and each of these are fairly similar.
+
+21
+00:02:15.800 --> 00:02:32.669
+Andrew Sikes: One possible improvement I could see here is that rather than having a print statement that we have to hard code for each sail. This could be something possibly implemented in the Makesale function. I can get to that later. But after the
+
+22
+00:02:33.220 --> 00:02:35.999
+Andrew Sikes: if conditioned to ensure the sale can happen.
+
+23
+00:02:36.310 --> 00:02:43.569
+Andrew Sikes: We can implement our our print statements in there, and it could be more modular. We won't have to hard code each time we make a sale.
+
+24
+00:02:45.130 --> 00:02:48.359
+Andrew Sikes: We see on line 43.
+
+25
+00:02:49.420 --> 00:02:59.220
+Andrew Sikes: The it uses reflection by calling its own class and we see the dot get simple name.
+
+26
+00:02:59.260 --> 00:03:02.349
+Andrew Sikes: This ensures the class that will be
+
+27
+00:03:03.370 --> 00:03:12.409
+Andrew Sikes: displayed will be in the simple name of sales rather than a more complicated Java name of sales dot something dot something
+
+28
+00:03:15.480 --> 00:03:20.130
+Andrew Sikes: moving on to the sales Java class and file.
+
+29
+00:03:21.150 --> 00:03:26.449
+Andrew Sikes: We see we have these private inventory and pricing
+
+30
+00:03:26.720 --> 00:03:27.780
+Andrew Sikes: classive.
+
+31
+00:03:28.980 --> 00:03:37.030
+Andrew Sikes: and these are to ensure that when sales is called we can use in line 11 for the constructor.
+
+32
+00:03:38.180 --> 00:03:47.550
+Andrew Sikes: When this is called, we use the invoking objects on line 12 and 13 of this dot inventory and this dot pricing to ensure that
+
+33
+00:03:47.640 --> 00:03:53.639
+Andrew Sikes: whenever we call make sale, we have the proper inventory and pricing
+
+34
+00:03:54.560 --> 00:04:01.380
+Andrew Sikes: classes that will actually be used in the pricing and inventory classes. and we have access to the variables. In those classes
+
+35
+00:04:02.780 --> 00:04:06.220
+Andrew Sikes: on line 16. We have the make sale function
+
+36
+00:04:06.310 --> 00:04:12.410
+Andrew Sikes: which uses the pricing and inventory functions or classes
+
+37
+00:04:13.910 --> 00:04:19.590
+Andrew Sikes: to use get price, and is available on lines 17 and 18
+
+38
+00:04:19.649 --> 00:04:21.990
+Andrew Sikes: to ensure that.
+
+39
+00:04:23.290 --> 00:04:25.969
+Andrew Sikes: hey? There is enough inventory to
+
+40
+00:04:26.270 --> 00:04:36.510
+Andrew Sikes: purchase the quantity desired, and that we have access to the price to  calculate the sale, especially for sales comment.
+
+41
+00:04:37.550 --> 00:04:48.749
+Andrew Sikes: We see we have an if statement on Line 20 for is available. This is to ensure that if there is not enough inventory for the amount of product that is trying to be purchased.
+
+42
+00:04:48.970 --> 00:04:53.950
+Andrew Sikes: we will return false and exit the function rather than executing a sail.
+
+43
+00:04:55.090 --> 00:04:57.939
+Andrew Sikes: Now, if we do get into the if loop
+
+44
+00:04:58.460 --> 00:05:03.790
+Andrew Sikes: online, 21 inventory will be called the decrement stock function.
+
+45
+00:05:03.810 --> 00:05:05.410
+Andrew Sikes: which will
+
+46
+00:05:06.880 --> 00:05:13.050
+Andrew Sikes: subtract the amount that is purchased from that inventory to ensure. We have updated values.
+
+47
+00:05:14.150 --> 00:05:23.700
+Andrew Sikes: and this is where sales counter will be called, and the only time sales counter will be called, which is why it's not instantiated like sales pricing and inventory.
+
+48
+00:05:24.060 --> 00:05:30.739
+Andrew Sikes: Because sales calendar is a static class. and each time a sale is made
+
+49
+00:05:30.870 --> 00:05:34.100
+Andrew Sikes: it will call and update those
+
+50
+00:05:34.120 --> 00:05:37.510
+Andrew Sikes: static variables in the sales counter class
+
+51
+00:05:37.590 --> 00:05:39.339
+Andrew Sikes: by
+
+52
+00:05:39.940 --> 00:05:44.980
+Andrew Sikes: By calculating a total price for price times quantity, and
+
+53
+00:05:45.130 --> 00:05:47.820
+Andrew Sikes: updating the total units for
+
+54
+00:05:47.980 --> 00:05:49.589
+Andrew Sikes: purely the quantity variable.
+
+55
+00:05:51.880 --> 00:05:54.450
+Andrew Sikes: Moving on to the sales calendar class.
+
+56
+00:05:55.730 --> 00:06:01.350
+Andrew Sikes: we see the main 2 variables in this class are kept static as well as the main 2 functions.
+
+57
+00:06:02.490 --> 00:06:06.739
+Andrew Sikes: This is for the sake of sales counter only ever being
+
+58
+00:06:06.990 --> 00:06:18.920
+Andrew Sikes: called to this instantiation, and ever being instantiated more than once. And this is for the sake of these static variables. the
+
+59
+00:06:19.400 --> 00:06:30.209
+Andrew Sikes: only having one version of themselves each time it's called, it will be updated, and these variables will hold their values. If they weren't static each time a sale was made
+
+60
+00:06:30.230 --> 00:06:37.379
+Andrew Sikes: we would create a new total sales and a new total items. And we wouldn't have a true calculation. We wouldn't have a true
+
+61
+00:06:37.930 --> 00:06:39.790
+Andrew Sikes: holding of those variables.
+
+62
+00:06:41.300 --> 00:06:42.700
+Andrew Sikes: The
+
+63
+00:06:43.260 --> 00:06:55.700
+Andrew Sikes: functions update total sales and update total units are fairly simple. It is just incrementing total sales by the new value or updating total items by the new value that was purchased
+
+64
+00:06:58.940 --> 00:07:06.650
+Andrew Sikes: in the pricing class, we see. All of our variables are private here. It will be the same for inventory.
+
+65
+00:07:07.710 --> 00:07:09.780
+Andrew Sikes: This is for the sake of
+
+66
+00:07:11.070 --> 00:07:13.120
+Andrew Sikes: in not inheritance.
+
+67
+00:07:14.750 --> 00:07:16.399
+Andrew Sikes: I can't think of the word.
+
+68
+00:07:17.830 --> 00:07:19.749
+Andrew Sikes: It's just for the sake of
+
+69
+00:07:19.790 --> 00:07:32.849
+Andrew Sikes: pricing is the only class that will need access to these variables, and the only time other functions will need to access. These variables will be by calling the get price function. The only function in the pricing class.
+
+70
+00:07:34.080 --> 00:07:36.919
+Andrew Sikes: which is a simple switch case.
+
+71
+00:07:37.510 --> 00:07:44.490
+Andrew Sikes: whatever parameter is called, it'll ensure that it returns the price of that variable
+
+72
+00:07:44.540 --> 00:07:46.070
+Andrew Sikes: of that product type
+
+73
+00:07:49.640 --> 00:07:55.400
+Andrew Sikes: moving on to the inventory class similar to pricing, and the fact that
+
+74
+00:07:55.650 --> 00:08:01.509
+Andrew Sikes: each variable will remain private, and the only way to access these variables is by calling
+
+75
+00:08:01.670 --> 00:08:09.849
+Andrew Sikes: the inventory methods is available, or what is available, will be the only way to access them. To see them.
+
+76
+00:08:10.000 --> 00:08:14.100
+Andrew Sikes: Decrement will be the only way to effect them. To change them.
+
+77
+00:08:15.560 --> 00:08:21.729
+Andrew Sikes: We see, of course, we have a a stock and inventory for each of our items that we sell
+
+78
+00:08:23.150 --> 00:08:29.039
+Andrew Sikes: on line 10 we have the is available method which will return.
+
+79
+00:08:29.080 --> 00:08:32.900
+Andrew Sikes: A bullion of if there is enough
+
+80
+00:08:33.200 --> 00:08:36.220
+Andrew Sikes: inventory for the amount that is trying to be purchased.
+
+81
+00:08:36.679 --> 00:08:44.699
+Andrew Sikes: This is done by each variable's stock greater than or equal to the quantity that's trying to be purchased.
+
+82
+00:08:46.130 --> 00:08:50.030
+Andrew Sikes: If returned positive, the make cell function will be able to continue.
+
+83
+00:08:52.530 --> 00:08:58.829
+Andrew Sikes: We have our last inventory method on line 25 decrement stock.
+
+84
+00:09:00.070 --> 00:09:08.590
+Andrew Sikes: This is to ensure that after a sale is completed the quantity will be decremented. Will the inventory
+
+85
+00:09:08.750 --> 00:09:11.129
+Andrew Sikes: item will be decremented by quantity.
+
+86
+00:09:11.160 --> 00:09:14.279
+Andrew Sikes: which is simply done by a.
+
+87
+00:09:15.280 --> 00:09:17.649
+Andrew Sikes: The minus equals operator.
+
