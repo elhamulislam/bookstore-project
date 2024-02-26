@@ -1,0 +1,714 @@
+WEBVTT
+
+1
+00:00:02.680 --> 00:00:09.229
+Blake Jameson: Hello! My name is Blake Jamieson, and I look through the code with Elm Ull, Islam and Andrew Sykes.
+
+2
+00:00:10.400 --> 00:00:16.250
+Blake Jameson: First I'm going to start off going through App Dot, Java, and it's where the the main method is held.
+
+3
+00:00:16.500 --> 00:00:30.780
+Blake Jameson: Starting with line 16 first it outputs to the console  starting project. In this case a new app object is created, and the method make announcement
+
+4
+00:00:30.900 --> 00:00:35.130
+Blake Jameson: is called which returns a string starting project, and that
+
+5
+00:00:35.580 --> 00:00:40.019
+Blake Jameson: and then that enables it to be granted to the console.
+
+6
+00:00:40.090 --> 00:00:46.149
+Blake Jameson: On lines 18 and 19, an inventory object and a pricing object are created.
+
+7
+00:00:46.310 --> 00:01:00.520
+Blake Jameson:  they each. The inventory object holds inventory amounts for 4 different types of products. and a pricing object holds pricing information for the 4 different objects. And that's why they need to be created
+
+8
+00:01:00.860 --> 00:01:12.190
+Blake Jameson: and on line 20. Actually, when making the sales object during its constructor, it's past the inventory object and the pricing object being that
+
+9
+00:01:12.420 --> 00:01:15.770
+Blake Jameson: sales objects have, instance, variables
+
+10
+00:01:15.940 --> 00:01:19.050
+Blake Jameson: of inventory and pricing objects
+
+11
+00:01:20.020 --> 00:01:29.630
+Blake Jameson: on line 23. It prints to the console product, availability and price with Java format specifiers
+
+12
+00:01:31.280 --> 00:01:36.439
+Blake Jameson: for strings. Let's say, an absence of this hyphen, the text would be right justified.
+
+13
+00:01:36.650 --> 00:01:40.999
+Blake Jameson: but this hyphen makes it. That text is left justified.
+
+14
+00:01:41.440 --> 00:01:52.120
+Blake Jameson: and this 15 essentially reserves 15 spaces for that word or string. Rather, it's like, if product is 7 characters long, 15 minus 7 is 8,
+
+15
+00:01:52.250 --> 00:01:58.589
+Blake Jameson: it would be product left justified with 8 spaces, then availability, taking up, however, many spaces.
+
+16
+00:01:58.660 --> 00:02:03.979
+Blake Jameson: and each of the 3 words have 15 spaces allocated for them, and they're left justified.
+
+17
+00:02:04.310 --> 00:02:08.419
+Blake Jameson: But line 23. It prints product, availability and price to the screen
+
+18
+00:02:09.210 --> 00:02:13.060
+Blake Jameson: for lines 26, through 29. It formats
+
+19
+00:02:14.310 --> 00:02:16.750
+Blake Jameson: my apologies. It prints to the screen
+
+20
+00:02:17.460 --> 00:02:27.890
+Blake Jameson: books, stationery, pencils, pins, and their respective availabilities and their respective prices. Looking at line 26, for example, with books.
+
+21
+00:02:28.250 --> 00:02:32.460
+Blake Jameson: For the second argument passed. there's
+
+22
+00:02:32.820 --> 00:02:37.030
+Blake Jameson: inventory. The the inventory method is available
+
+23
+00:02:37.190 --> 00:02:42.579
+Blake Jameson: is is called. and that takes in the product name of book and a quantity of one.
+
+24
+00:02:43.020 --> 00:02:48.330
+Blake Jameson: Each inventory object is actually
+
+25
+00:02:48.460 --> 00:02:49.740
+the initial
+
+26
+00:02:50.070 --> 00:02:57.510
+Blake Jameson: bookstock is 10, and the for the other 3 products they had a start, a
+
+27
+00:02:57.560 --> 00:03:07.130
+Blake Jameson: stocks greater than 10. So for lines 26, through 29, for this is available method. As you can see, a quantity of one is passed for each of them.
+
+28
+00:03:07.220 --> 00:03:10.900
+Blake Jameson: and being that initially, all products
+
+29
+00:03:11.200 --> 00:03:14.469
+Blake Jameson: have 10 or more in stock that would return true.
+
+30
+00:03:15.150 --> 00:03:24.579
+Blake Jameson: and for pricing dot get price, and the getprice method takes in the name of the product and returns its respective price.
+
+31
+00:03:24.880 --> 00:03:29.519
+Blake Jameson: So for 26, for 29, it's product name, followed by true
+
+32
+00:03:30.040 --> 00:03:36.360
+Blake Jameson: followed by its respective price and with its a respective price. This format
+
+33
+00:03:36.530 --> 00:03:42.390
+Blake Jameson: Java format specifier, specifies 2 decimal points, which is generally how
+
+34
+00:03:42.970 --> 00:03:44.830
+Blake Jameson: how currency is represented
+
+35
+00:03:46.050 --> 00:03:51.929
+Blake Jameson: per line 23. Amid prints, a new line with followed by sales transactions.
+
+36
+00:03:52.240 --> 00:04:04.730
+Blake Jameson: and 33 it you're you're returning a Boolean value to the variable book sale and the make sale method. It aims to to simulate
+
+37
+00:04:05.530 --> 00:04:07.159
+Blake Jameson: or emulate rather
+
+38
+00:04:07.490 --> 00:04:09.940
+Blake Jameson:  a transaction.
+
+39
+00:04:10.750 --> 00:04:18.489
+Blake Jameson: and if there's enough of an item in stock. and you can make the sale. So, for example, book, the initial
+
+40
+00:04:19.089 --> 00:04:30.679
+Blake Jameson: quantity of bookstock was 10. So for 33, line 33. Whenever you pass a quantity of 2, it can make that sale 10 is greater than equal to 2. You have 10 in stock.
+
+41
+00:04:30.940 --> 00:04:34.949
+Blake Jameson: Customer wants to. That would return true, and that purchase could be made.
+
+42
+00:04:35.010 --> 00:04:37.110
+Blake Jameson: and with with make sale
+
+43
+00:04:37.410 --> 00:04:45.219
+Blake Jameson: the the item stock. In this case, bookstalk on line 33. A book stock would be decremented by 2,
+
+44
+00:04:45.290 --> 00:04:57.090
+Blake Jameson: so, as it began with in bookstalk. they would now have 8, bookstock after line 33. Then why 34 printed to the console is sold to books.
+
+45
+00:04:57.360 --> 00:04:58.230
+Blake Jameson: True.
+
+46
+00:04:58.930 --> 00:05:02.230
+for 36, and and 39. It's a similar deal.
+
+47
+00:05:02.300 --> 00:05:05.649
+Blake Jameson: and for pencils and stationaries attempting to make a sail
+
+48
+00:05:05.880 --> 00:05:08.860
+Blake Jameson: with each of the 2 respective items,
+
+49
+00:05:09.400 --> 00:05:12.859
+Blake Jameson: being that they had initially pencils had
+
+50
+00:05:13.110 --> 00:05:18.230
+Blake Jameson: 30 stationary 20 that's greater than the
+
+51
+00:05:18.370 --> 00:05:21.189
+Blake Jameson: greater than the 5 and 3 that are called in
+
+52
+00:05:21.540 --> 00:05:25.930
+Blake Jameson: the make sale functions, and that would return true for
+
+53
+00:05:26.400 --> 00:05:35.700
+Blake Jameson: for pencil sale and stationary sale. and for 37, and and 40 it'd be printed, sold on the item
+
+54
+00:05:35.920 --> 00:05:41.879
+Blake Jameson: and true. because they were successfully able to make the sale.
+
+55
+00:05:43.100 --> 00:05:45.820
+Blake Jameson: Line 43. The
+
+56
+00:05:46.300 --> 00:05:57.789
+Blake Jameson: the string, the the string that'd be printed to the screen would end up being class of sales. Object, Colon. I'm sales. Each object in Java is supplied. This get class method
+
+57
+00:05:58.220 --> 00:06:01.119
+Blake Jameson: and this get simple name.
+
+58
+00:06:01.260 --> 00:06:07.009
+Blake Jameson: It helps return a string. That's the name that you define as a class
+
+59
+00:06:07.580 --> 00:06:15.250
+Blake Jameson: and that the sales class this sales object here as a class name that simplified as sales.
+
+60
+00:06:15.570 --> 00:06:19.120
+Blake Jameson: but in absence of get simple name.
+
+61
+00:06:19.630 --> 00:06:21.939
+Blake Jameson: if I'm not mistaken it would be.
+
+62
+00:06:23.850 --> 00:06:32.090
+Blake Jameson: It would be 1 s. It would be books or project sales sales. I had to look at the other file to to remember real quick.
+
+63
+00:06:32.460 --> 00:06:47.270
+Blake Jameson: But yeah, get simple name, Prince. Prettier, more more descriptive class name that makes more sense. And looking at line 46. It's commented out so it won't print. But
+
+64
+00:06:47.400 --> 00:06:48.959
+Blake Jameson: you're able to
+
+65
+00:06:49.600 --> 00:07:02.360
+Blake Jameson: to to call using salescounter. Total sales. Sales counter is a class name, but it has static methods and static variables. In this case this is calling upon a static variable.
+
+66
+00:07:02.830 --> 00:07:09.410
+Blake Jameson: But there's no need to create an object prior to to calling this function being that it. It is static.
+
+67
+00:07:09.770 --> 00:07:20.769
+Blake Jameson: So that would have been able. This would have been a legal working working line had had it not been commented out, and on 49. It prints that it's exiting the program.
+
+68
+00:07:20.870 --> 00:07:25.040
+Blake Jameson: So I gave a general overview of the flow of the main method.
+
+69
+00:07:25.080 --> 00:07:33.159
+Blake Jameson: But now I'm going to go into each of the 4 different classes and talk through them their methods and and what their aim is.
+
+70
+00:07:33.950 --> 00:07:36.420
+Blake Jameson: So first, we'll look at inventory, Java.
+
+71
+00:07:37.190 --> 00:07:45.900
+Blake Jameson: so inventory objects are initialized with a book stock of 10 stationery stock of 20 pencil stock of 30,
+
+72
+00:07:45.970 --> 00:07:51.410
+Blake Jameson: and Pinstock a 40. As you can see, these 4 variables are private.
+
+73
+00:07:52.280 --> 00:07:56.510
+Blake Jameson: generally having private variables is is a good approach.
+
+74
+00:07:57.980 --> 00:08:06.459
+Blake Jameson: it's a good approach being that if these variables were public, then a user of this program or these classes
+
+75
+00:08:06.940 --> 00:08:11.410
+Blake Jameson: would be able to freely edit the values at their own will.
+
+76
+00:08:11.680 --> 00:08:18.160
+Blake Jameson: And do you want to prevent that? You want to provide a structure for people to potentially, maybe
+
+77
+00:08:18.780 --> 00:08:25.009
+Blake Jameson: edit these these stalks, but through methods and through a structure desired behavior.
+
+78
+00:08:25.210 --> 00:08:36.280
+Blake Jameson: And and that's why these variables are made private. It's the the methods themselves that dictate the state of these variables. But it's not allowing anyone to freely edit them
+
+79
+00:08:36.320 --> 00:08:37.730
+Blake Jameson: whenever they feel
+
+80
+00:08:39.270 --> 00:08:47.510
+Blake Jameson: this inventory class has 2 methods. This first one is called, is available, which returns. A Boolean
+
+81
+00:08:47.590 --> 00:08:54.550
+Blake Jameson: takes in 2 parameters a string of the product, name, and an end of the quantity and the general aim
+
+82
+00:08:54.650 --> 00:08:59.819
+Blake Jameson: of this method is returning. True, if you have enough of an item in stock.
+
+83
+00:09:00.370 --> 00:09:05.900
+Blake Jameson: So, for example, if someone passed book for the product type and a quantity of
+
+84
+00:09:06.050 --> 00:09:13.710
+Blake Jameson: of 10 that would return. True. you initially, you have 10 bookstock, and if someone were to pass 10,
+
+85
+00:09:14.080 --> 00:09:17.130
+Blake Jameson: 10 is greater than or equal to 10, so that would return. True.
+
+86
+00:09:17.300 --> 00:09:22.379
+Blake Jameson: however, if they were to pass a quantity of 11 for a product type of book.
+
+87
+00:09:23.060 --> 00:09:27.230
+Blake Jameson: then that would return false. But yeah, product
+
+88
+00:09:27.380 --> 00:09:34.269
+Blake Jameson: product type is, there's a switch statement for product type and depending on whether book, stationary pencil or pen is passed.
+
+89
+00:09:34.530 --> 00:09:36.740
+Blake Jameson: It's respective.
+
+90
+00:09:36.810 --> 00:09:41.019
+Blake Jameson: The item's respective stock will be compared to the quantity that's passed.
+
+91
+00:09:41.150 --> 00:09:57.000
+Blake Jameson: and there's a default case that's that's defined here. and if someone enters either a product that doesn't exist or they have a typo. or if they have a lowercase, for example, for PIN, they accidentally pass a lowercase P instead of a capital. P.
+
+92
+00:09:57.320 --> 00:10:00.380
+Blake Jameson: Those cases would
+
+93
+00:10:00.480 --> 00:10:03.260
+Blake Jameson: would default to returning false.
+
+94
+00:10:04.360 --> 00:10:07.109
+Blake Jameson: There is another method called decrement stock.
+
+95
+00:10:07.520 --> 00:10:11.690
+Blake Jameson: and the goal of this function, generally speaking, is
+
+96
+00:10:11.850 --> 00:10:13.320
+Blake Jameson: to
+
+97
+00:10:14.960 --> 00:10:19.699
+Blake Jameson: to lessen the amount of stock that that you have after making a sale
+
+98
+00:10:20.700 --> 00:10:23.710
+for this, for example, somewhere to pass pass
+
+99
+00:10:24.380 --> 00:10:35.409
+Blake Jameson: book as the product type and a quantity of, let's say, for example, 5. Then, in the case of book. a book stock of 10 minus a quantity of 5
+
+100
+00:10:35.840 --> 00:10:43.690
+Blake Jameson: would would update the book stock to its new appropriate value, representing its its new current
+
+101
+00:10:44.040 --> 00:10:49.700
+Blake Jameson: stock. So this. this function works with
+
+102
+00:10:49.740 --> 00:10:54.030
+Blake Jameson: works with all 4 of the different types of products and and updates their
+
+103
+00:10:54.170 --> 00:11:01.130
+Blake Jameson: their stock. And for this there's no default case. There isn't a need for one.
+
+104
+00:11:01.170 --> 00:11:05.320
+Blake Jameson: If someone were to pass a product that doesn't exist or a typo.
+
+105
+00:11:05.810 --> 00:11:13.869
+Blake Jameson: For example, then it makes sense that you'd need to do nothing. So in absence of a default case, it still works. A. Okay.
+
+106
+00:11:15.230 --> 00:11:20.830
+Blake Jameson: Now, I'm gonna look at the pricing class. There's 4 different
+
+107
+00:11:21.140 --> 00:11:28.810
+Blake Jameson: variables. It's the the prices of the 4 different products, the book price, the stationary price, the pencil price, and the pen price.
+
+108
+00:11:29.980 --> 00:11:33.770
+Blake Jameson: Again, each of these 4 variables are private.
+
+109
+00:11:33.810 --> 00:11:42.800
+Blake Jameson: whether it's pricing whether it's inventory, and for a lot of things. Whether they're very sensitive information or not. Just
+
+110
+00:11:42.910 --> 00:11:48.409
+Blake Jameson: it's it's good practice for private variables. As I mentioned being able to structure
+
+111
+00:11:48.610 --> 00:11:51.209
+Blake Jameson: the flow and
+
+112
+00:11:51.630 --> 00:11:59.809
+Blake Jameson: and necessitating that methods. or what potentially can update these prices rather than someone just
+
+113
+00:11:59.950 --> 00:12:08.300
+Blake Jameson: being able to to update a public variable whenever they want. It's best practice for them to be private, and they are here.
+
+114
+00:12:08.640 --> 00:12:12.710
+Blake Jameson: There's one method in the class it's called get price. It returns a double.
+
+115
+00:12:12.970 --> 00:12:15.690
+Blake Jameson: a, a string of the product name
+
+116
+00:12:16.090 --> 00:12:17.370
+Blake Jameson: is past
+
+117
+00:12:17.490 --> 00:12:23.340
+Blake Jameson: and depending on the the product, name or product type, it's passed. It's
+
+118
+00:12:23.530 --> 00:12:30.870
+Blake Jameson: appropriate. Price will be returned. So some were to pass book return 10.0 somewhere to pass.
+
+119
+00:12:30.970 --> 00:12:35.760
+Blake Jameson: My stationari had returned 2.0 and so forth.
+
+120
+00:12:36.000 --> 00:12:46.999
+Blake Jameson: And there's a default case here, the return 0 again, whether it's a typo or product that doesn't exist and make sense that you return 0. In that case.
+
+121
+00:12:48.780 --> 00:12:50.950
+Blake Jameson: now, I'm gonna look at the sales class.
+
+122
+00:12:52.580 --> 00:12:59.850
+Blake Jameson: The sales class has 2 different instance variables. It's it has an inventory object
+
+123
+00:12:59.940 --> 00:13:04.700
+Blake Jameson: and a pricing object for its that's member variables.
+
+124
+00:13:05.500 --> 00:13:13.969
+Blake Jameson: And there's a constructor. A constructor takes in 2 parameters an inventory and object, an inventory object, and and a pricing object.
+
+125
+00:13:14.490 --> 00:13:15.570
+Blake Jameson: and
+
+126
+00:13:17.070 --> 00:13:28.759
+Blake Jameson: the objects and sense variable. is set equal to the object that was passed. and something to note is that that this keyword is needed here being the
+
+127
+00:13:29.200 --> 00:13:33.280
+Blake Jameson: the. The parameters are the same name as the instance variables
+
+128
+00:13:34.460 --> 00:13:37.610
+Blake Jameson: in absence of this.
+
+129
+00:13:38.140 --> 00:13:50.319
+Blake Jameson: this, this keyword right here. like, let's say it just said inventory equals inventory. In that case, essentially, it'd be saying this parameter or other local variable is equal to itself, which
+
+130
+00:13:50.700 --> 00:13:52.840
+Blake Jameson: course doesn't make much sense.
+
+131
+00:13:53.070 --> 00:14:01.900
+Blake Jameson: It would end up in an undesired end result. And just logically, it doesn't make sense to equal something to itself.
+
+132
+00:14:01.940 --> 00:14:10.950
+Blake Jameson: But regardless this keyword is needed that sets this instance variable in this case, inventory equal to
+
+133
+00:14:11.340 --> 00:14:17.980
+Blake Jameson: the parameter that was passed. and pricing is also, of course, accounted for here.
+
+134
+00:14:19.520 --> 00:14:28.399
+Blake Jameson: Now, looking at the make sale method, which returns a Boolean. you're a string of the product type and an end of quantity
+
+135
+00:14:28.500 --> 00:14:32.249
+Blake Jameson: are present. And first line 17.
+
+136
+00:14:32.470 --> 00:14:36.099
+Blake Jameson: There's a local variable price, which is a double.
+
+137
+00:14:36.300 --> 00:14:38.319
+Blake Jameson: and it calls upon
+
+138
+00:14:38.760 --> 00:14:40.830
+pricing method called
+
+139
+00:14:41.000 --> 00:14:45.119
+Blake Jameson: get price. which, again, looking at the get price method.
+
+140
+00:14:45.570 --> 00:14:53.830
+Blake Jameson: it takes in a product type and returns its respective price. So, for example, I saw this previously. But if someone were to pass book it would return 10.
+
+141
+00:14:54.000 --> 00:14:55.470
+Blake Jameson: I'm just, for example.
+
+142
+00:14:56.510 --> 00:15:09.620
+Blake Jameson: and line 17 again, that that price variable captures the appropriate price of the product on Line 18. There's a Boolean is available which calls upon the inventories. Method of is available.
+
+143
+00:15:09.890 --> 00:15:19.990
+Blake Jameson: She's looking at one more time takes in a product type, a quantity. and it returns true, if you have enough of that item in stock, or else it will return false.
+
+144
+00:15:23.910 --> 00:15:32.799
+Blake Jameson: And that was line 18 for lunch 20. Let's say that that item you had enough stock and it is available. This being true.
+
+145
+00:15:33.430 --> 00:15:34.820
+Blake Jameson: then the method
+
+146
+00:15:34.900 --> 00:15:39.830
+Blake Jameson: decrement stock will be called on this inventory instance variable.
+
+147
+00:15:40.470 --> 00:15:44.589
+Blake Jameson: and again, one more time decrement stock
+
+148
+00:15:45.360 --> 00:15:51.280
+Blake Jameson: it. It reflects whenever there's a Salemade. and in the system
+
+149
+00:15:52.040 --> 00:15:55.540
+decrementing the amount of stock that you have on hand that
+
+150
+00:15:55.640 --> 00:15:57.510
+Blake Jameson: particular product
+
+151
+00:15:59.180 --> 00:16:08.299
+Blake Jameson: for line 24, and 25. It utilizes a sales counter class. And this is a class static methods and instance variables
+
+152
+00:16:08.600 --> 00:16:13.080
+Blake Jameson: in the case of using its methods here because they are static.
+
+153
+00:16:13.590 --> 00:16:18.800
+Blake Jameson: There's no need to create a sales counter object priority use. You could simply say.
+
+154
+00:16:18.920 --> 00:16:23.850
+Blake Jameson: sales counter dot, the method name being that they are static methods.
+
+155
+00:16:24.770 --> 00:16:32.029
+Blake Jameson: and in this case sales Canada update total sales. Sales counter keeps track of of the sales throughout
+
+156
+00:16:32.390 --> 00:16:35.490
+Blake Jameson: throughout the program and update total sales.
+
+157
+00:16:35.720 --> 00:16:36.970
+Blake Jameson: we'll increment
+
+158
+00:16:37.010 --> 00:16:49.469
+Blake Jameson: the the sales amount that just occurred with that sale in line, 25 calling sales counter dot update total units. It increments the amount of units that have been sold throughout the program so far
+
+159
+00:16:50.260 --> 00:16:53.830
+Blake Jameson: and return true is is executed.
+
+160
+00:16:54.490 --> 00:16:56.240
+Blake Jameson: I'm in the case where
+
+161
+00:16:57.840 --> 00:17:04.869
+Blake Jameson: the the object. the pertinent object was not available. False would be returned
+
+162
+00:17:05.030 --> 00:17:08.249
+Blake Jameson: because a sale wasn't made which makes sense
+
+163
+00:17:09.270 --> 00:17:11.859
+Blake Jameson: go looking at the sales calendar plus.
+
+164
+00:17:11.950 --> 00:17:21.820
+Blake Jameson: as I previously mentioned, we can see that there is static variables and static methods. Static static variables in general allow
+
+165
+00:17:22.220 --> 00:17:23.859
+Blake Jameson: a lot of programmers
+
+166
+00:17:23.869 --> 00:17:31.539
+Blake Jameson: to look at things from a class view, and rather than dealing with objects and being concerned with the objects. State
+
+167
+00:17:31.860 --> 00:17:34.890
+Blake Jameson:  static
+
+168
+00:17:34.950 --> 00:17:38.319
+Blake Jameson: variables. Taking the view of class, can
+
+169
+00:17:39.020 --> 00:17:44.419
+Blake Jameson: can look upon more things and and have different behavior that can be more desirable.
+
+170
+00:17:46.260 --> 00:17:51.620
+Blake Jameson: There's 2 different variables, there's total sales, and there's total items.
+
+171
+00:17:52.690 --> 00:17:56.489
+Blake Jameson: And they're public being that they are public. They either can be
+
+172
+00:17:56.700 --> 00:18:01.859
+Blake Jameson:  changed freely throughout, not saying someone to go that route.
+
+173
+00:18:02.030 --> 00:18:14.720
+Blake Jameson: or they could be viewed easier without the need with let's say a getter. Someone could print out total sales or total items. If they wanted to in an easier fashion.
+
+174
+00:18:15.880 --> 00:18:18.950
+Blake Jameson: and as I mentioned, update total sales takes in
+
+175
+00:18:18.970 --> 00:18:28.509
+Blake Jameson: a value generally a sales amount. That'd be the case here. and it would increment the total sales by the value with update total units
+
+176
+00:18:28.700 --> 00:18:30.579
+Blake Jameson: with the value passed it would.
+
+177
+00:18:30.900 --> 00:18:45.169
+Blake Jameson: it would increment the total items to what was just sold. And this this concludes my presentation on expanding a bookstore project. Again I worked with Andrew Sykes and Eljam Luslom.
+
+178
+00:18:45.370 --> 00:18:48.740
+Blake Jameson: Thank you for your time. and have a good one.
+
